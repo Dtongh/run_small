@@ -1,0 +1,189 @@
+/**app.wxss**/
+@import './lib/style/font.wxss';
+
+.container {
+  height: 100%;
+  width: 100%;
+  font-family: PingFang SC Medium, "微软雅黑";
+  font-size: 12px;
+  color: #3e3e3e;
+}
+
+.con {
+  overflow: hidden;
+  width: 100%;
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.overF {
+  overflow: hidden;
+}
+
+
+
+.marginAuto {
+  margin: 0 auto;
+}
+
+
+.paddLeft25 {
+  padding-left: 25rpx;
+}
+
+.paddRight25 {
+  padding-right: 25rpx;
+}
+
+.paddLeft15 {
+  padding-left: 15rpx;
+}
+
+.paddRight15 {
+  padding-right: 15rpx;
+}
+
+@font-face {
+  font-family: 'iconfont'; /* project id 505251 */
+  src: url('//at.alicdn.com/t/font_505251_xz8fpgd9ky3f2yb9.eot');
+  src: url('//at.alicdn.com/t/font_505251_xz8fpgd9ky3f2yb9.eot?#iefix') format('embedded-opentype'),
+         url('//at.alicdn.com/t/font_505251_xz8fpgd9ky3f2yb9.woff') format('woff'),
+         url('//at.alicdn.com/t/font_505251_xz8fpgd9ky3f2yb9.ttf') format('truetype'),
+         url('//at.alicdn.com/t/font_505251_xz8fpgd9ky3f2yb9.svg#iconfont') format('svg');
+}
+
+.mar_top_15 {
+  margin-top: 15rpx;
+}
+
+.mar_top_40 {
+  margin-top: 40rpx;
+}
+
+.mar_top_30 {
+  margin-top: 30rpx;
+}
+
+.mar_top_66 {
+  margin-top: 66rpx;
+}
+.mar_top_qs {
+  margin-top: 70rpx;
+}
+.mar_top_ws {
+  margin-top: 50rpx;
+}
+
+.mar_top_ew {
+  margin-top: 25rpx;
+}
+.mar_top_es {
+  margin-top: 25rpx;
+}
+.mar_r_ys{
+   margin-right: 10rpx;
+}
+
+.cor_def {
+  color: #fddb8e;
+  font-size: 36rpx;
+}
+
+.cor_def_d {
+  color: #fddb8e;
+}
+.cor_red{
+  color: #fe3a38;
+}
+.cor_wh {
+  color: white;
+}
+
+.cor_wh_de {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.font_28 {
+  font-size: 28rpx;
+}
+
+.font_20 {
+  font-size: 20rpx;
+}
+
+.font_24 {
+  font-size: 24rpx;
+}
+
+.font_22 {
+  font-size: 22rpx;
+}
+.font_36 {
+  font-size: 36rpx;
+}
+.font_b{
+  font-weight: bold;
+}
+.cor_sss {
+  color: #333;
+}
+
+.cor_lll {
+  color: #666;
+}
+
+.cor_jjj {
+  color: #999;
+}
+
+.text_over {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.flex_sb{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.flex_align{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex_center{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.flex_line{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.flex_start{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.text_clom{
+  
+  max-height: 150rpx;
+  overflow: hidden;
+}

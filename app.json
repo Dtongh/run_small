@@ -1,0 +1,47 @@
+{
+  "pages": [
+      
+     
+
+      
+
+      "pages/index/index",
+      "pages/mine/mine"
+      
+     
+
+    
+     
+     
+    
+    
+  ],
+  "window": {
+    
+    "navigationBarBackgroundColor": "#e03940",
+    "navigationBarTitleText": "发财口令包",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "white",
+    "backgroundColor": "#e03940",
+    "selectedColor": "#fcd487",
+    "list": [
+      {
+        "iconPath": "pages/image/1.png",
+        "selectedIconPath": "pages/image/1a.png",
+        "pagePath": "pages/index/index",
+        "text": "恭喜发财"
+      },
+      
+      {
+        "iconPath": "pages/image/3.png",
+        "selectedIconPath": "pages/image/3a.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}
